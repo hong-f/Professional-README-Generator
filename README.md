@@ -4,8 +4,8 @@
 - [Overview](#overview)
   - [Description](#description)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+  - [How To](#how-to)
+  - [Links](#links) 
   - [Built with](#built-with)
 
 
@@ -24,20 +24,21 @@ This week's challenge was to build a professional Readme Generator by using a co
 ![](./img/2.png)
 ![](./img/3.png)
 
-​
+### How To
+1. In command-line, open index.js file.
+2. Run the command
+```bash
+node index.js
+```
+3. Input answer to prompted questions.
+4. Once finished, go to generated file to find the README file.
 ​
 ### Links
 ​
-- GitHub URL: [https://github.com/hong-f/Professional-README-Generatorhttps://github.com/hong-f/Professional-README-Generator]
+- GitHub URL: [https://github.com/hong-f/Professional-README-Generator]
 
 ​
-## My process
-I first started by creatingthe framework of how the weather dashboard should look like through html, css, and bootstrap. From there, I did pseudo-coding to build out how the dashboard should function based on the requirements. 
 ### Built with
-​
 - JS
--html
--cs
--3rd party API
--bootstrap
--jquery
+- Node.js
+- inquirer
