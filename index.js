@@ -64,7 +64,7 @@ const questions = [
 
 ];
 
-
+// TODO: Create a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
       fs.writeFile('./dist/generated-README.md', fileContent, err => {
@@ -88,8 +88,7 @@ const writeFile = fileContent => {
     .then(readmeData => {
         return readmeData;
     })
-  };
-  
+};
   // TODO: Create a function to initialize app
   init()
   .then(readmeData => {
@@ -105,5 +104,3 @@ const writeFile = fileContent => {
   .catch(err => {
     console.log(err);
   });
-// Function call to initialize app
-init();
